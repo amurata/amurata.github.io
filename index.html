@@ -16,9 +16,20 @@
 		<meta name="twitter:image" content="https://s3-ap-northeast-1.amazonaws.com/slider-media-recources-dev/post/1/87/7c2f7a65fb7dae18e2e51f3adf79ecd0">
 	    
 		<meta name="twitter:player" content="https://s3-ap-northeast-1.amazonaws.com/slider-media-recources-dev/post/1/87/28d9606a3a5aa49efc864cf3cfede486">
-	   
+	    <link id="sampleLink" type="text/css" rel="stylesheet" href="https://translate.googleapis.com/translate_static/css/translateelement.css" />
+	   <script type="text/javascript">
+		   function translate(){
+			    var el = document.createElement("script");
+			    el.src = "https://translate.googleapis.com/translate_static/js/element/main_ja.js";
+			    document.body.appendChild(el);
+			    var el2 = document.createElement("script");
+			    el2.src = "https://translate.googleapis.com/element/TE_20200506_00/e/js/element/element_main.js";
+			    document.body.appendChild(el2);
+		   }
+	    </script>
 	</head>
 	<body>
+		<button onClick="translate()">翻訳</button>
 Public API
 What we call Context is a map {key: value} that will be added to the message context.
 
